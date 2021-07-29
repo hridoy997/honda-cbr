@@ -1,0 +1,160 @@
+.section-1{
+    background: #264653;
+    height: 700px;
+    padding: 0 150px;
+    margin-bottom: 60px;
+}
+.title-text{
+    color: wheat;
+}
+.title-text > h1{
+    font-size: 50px;
+}
+.button{
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 413px;
+    background: #E76F51;
+    border: none;
+    border-radius: 5px;
+
+}
+.button:hover{
+    background: #b12d0d;
+}
+.title-banner:hover img{
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+
+.section-2>.title{
+    margin: 100px;
+}
+.section-2>.title h1{
+    font-size: 50px;
+}
+.fetured-bike-img{
+    margin: 0 150px 150px 150px ;
+}
+.fetured-bike-img img{
+    width: 288px;
+    height: 243px;
+    margin: 0 50px;
+    
+}
+.section-3>.title span{
+    color: #E76F51;
+}
+.section-3 >.user > .user-detial{
+    width: 325px;
+    height: 480px;
+    padding: 40px 35px;
+    margin: 40px 40px 100px 40px;
+}
+.user-detial .icon{
+    margin: 10px 0;
+}
+.user-detial .icon .fas{
+    color: #E77C40
+    ;
+}
+.user-detial .icon .far{
+    color: #E77C40
+    ;
+}
+.user-detial .icon .fa-star{
+    margin: 5px;
+}
+.section-5 > .title{
+    margin-bottom: 100px;
+}
+.section-5 >.title span{
+    color: #E76F51;
+    ;
+}
+.section-5 img{
+    width: 430px;
+    height: 425px;
+}
+.half-width{
+    width: 50%;
+    margin: 0 50px 0 50px;
+
+}
+
+.accordion-PopUp{
+    padding-right: 150px;
+}
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media only screen and (max-width:688px){
+    .section-1{
+        width: 100%;
+        padding: 0 0 0 10px;
+        flex-direction: column;
+    }
+    .title-banner img{
+        width: 320px;
+        height: 260px;
+    }
+    .section-2>.title{
+        margin: 0 0 100px 0;
+    }
+    .section-2>.title h1{
+        font-size: 35px;
+    }
+    .fetured-bike-img img{
+        margin: 50px 0px 50px 0;
+    }
+    .fetured-bike-img{
+        flex-direction: column;
+        align-items: center;
+    }
+    .user{
+        flex-direction: column;
+    }
+    .section-3 >.user > .user-detial{
+        width: 325px;
+        height: 480px;
+        padding: 25px 20px;
+        margin: 40px 20px;
+    }
+    .section-5 .title{
+        align-items: center;
+        margin: 50px;
+    }
+   .section-5 .title h1{
+       font-size: 35px;
+   }
+    
+    .Frequently{
+        flex-direction: column;
+        align-items: center;
+    }
+    .half-width{
+       margin: 0;
+    }
+    .half-width img{
+        width: 275px;
+        height: 270px;
+    }
+    .accordion-PopUp{
+        margin-top: 20px;
+        padding: 0;
+        width: 313px;
+        height: 540px;
+    }
+    
+}
